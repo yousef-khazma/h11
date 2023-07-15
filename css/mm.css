@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    background-color: darkcyan;
+    font-family: 'Roboto' , sans-serif;
+}
+.register {
+    width: 1000px;
+    height: 850px;
+    background-color: wheat;
+    border: solid black 2px;
+    margin: 50px auto;
+}
+
+.logo {
+    width: 50%;
+    height: 850px;
+    background-color: #28e7bb;
+    position: relative;
+    float: left;
+}
+
+.logo-img {
+    margin-top: 230px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+.form {
+    width: 50%;
+    height: 850px;
+    background-color: #31425a;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    height: 600px;
+    padding: 1; 
+    position: absolute;
+    top: 125px;
+    left: 5%;
+}
+
+h1 {
+    margin-bottom: 7px;
+    color: white;
+}
+
+form .free {
+    margin-bottom: 35px;
+    color: #1fd5b9;
+}
+
+input {
+    width: 100%;
+    padding: 7px 3px;
+    margin-bottom: 20px;
+    border: solid #99b0bc 2px;
+    font-family: 'Roboto' , sans-serif;
+    background-color: transparent;
+    color: #99b0bc;
+}
+
+.tarm {
+    text-align: left;
+}
+
+.tarm input {
+    width: auto;
+}
+
+.tarm p {
+    display: inline;
+    color: #99b0bc;
+    font-size: 18px;
+}
+
+input[type=submit] {
+    background-color: #1fd5b9;
+    color: white;
+    border: none;
+    height: 45px;
+    margin-top: 35px;
+}
+form a {
+    text-decoration: none;
+    padding: 5px 35px;
+    border-bottom: solid 2px #99b0bc;
+    color: #99b0bc;
+    font-family: 'Roboto' , sans-serif;
+}
+
